@@ -1,4 +1,4 @@
-export class distcalcmethods{
+export class Distcalcmethods{
     getMinkowskiDistance(point1: Array<number>, point2: Array<number>,p: number){
         var result:number=0
         for (let i = 0; i < point1.length; i++){
