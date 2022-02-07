@@ -1,4 +1,4 @@
-import {Distcalcmethods} from "https://deno.land/x/distance_calculator@1.0.3/mod.ts"
+import {Distcalcmethods} from "https://deno.land/x/distance_calculator@2.0.0/mod.ts"
 
 var testdata:Array<number[]>=[[1,2,3],[3,6,2]]
 const dist=new Distcalcmethods()
