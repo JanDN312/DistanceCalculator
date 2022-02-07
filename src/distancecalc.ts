@@ -7,9 +7,9 @@ export class Distcalcmethods{
         return result**(1/p)
     }
     getManhattanDistance(point1: Array<number>, point2: Array<number>){
-        this.getMinkowskiDistance(point1,point2,1)
+        return this.getMinkowskiDistance(point1,point2,1)
     }
     getEuclideanDistance(point1: Array<number>, point2: Array<number>){
-        this.getMinkowskiDistance(point1,point2,2)
+        return this.getMinkowskiDistance(point1,point2,2)
     }
 }
